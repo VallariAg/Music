@@ -86,7 +86,7 @@ a:hover{
 }
 
 
-@media (max-width: 700px)           /* phones  */
+@media (min-width: 481px) and (max-width: 767px)          /* phones  */
 {
     /* body{background-color: black;} */
     .logo{
