@@ -19,6 +19,9 @@ section{
     z-index: 3;
 
 }
+a:visited{
+    color:purple;
+}
 .quote{
     font-size: 2em;
     text-align: center;
