@@ -86,7 +86,9 @@ a:hover{
 }
 
 
-@media (min-width: 481px) and (max-width: 767px)          /* phones  */
+@media (min-width: 481px) and (max-width: 767px)   
+/* @media (min-width: 320px) and (max-width: 480px)     */
+/* @media only screen and (max-width: 400px)   phones  */
 {
     /* body{background-color: black;} */
     .logo{
@@ -141,7 +143,9 @@ a:hover{
 
 
 
-@media (min-width: 700px)           /* laptops */
+@media (min-width: 700px) 
+/* @media (min-width: 1281px) */
+/* @media only screen and (min-width: 961px)       laptops */
 {
     /* body{background-color: red;} */
     .logo{
