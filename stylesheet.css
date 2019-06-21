@@ -19,9 +19,7 @@ section{
     z-index: 3;
 
 }
-a:visited{
-    color:purple;
-}
+
 .quote{
     font-size: 2em;
     text-align: center;
@@ -50,6 +48,7 @@ footer{
 
 .social{
     width: 20px;
+    opacity: 80%;
 }
 .social:hover {
     transform: scale(1.4);
@@ -69,10 +68,12 @@ footer{
 th, tbody, td{
     border-width: 1%;
     border-style: solid;
-    border-color: black;
+    border-color: #000;
+    padding-left: 3%;   
+    
     width: 80%;
     font-family: "Indie flower";
-    font-size: 20px;
+    font-size: 100%;
     
 }
 a:visited{
@@ -98,9 +99,10 @@ a:hover{
         /* height:90%; */
     }
     .vallari{
-        text-align: left;
+        /* text-align: left; */
         font-size: 5vw;
-    
+        position: relative;
+        left: 10px;
     }
     .menu{
         display:block;
@@ -128,6 +130,9 @@ a:hover{
         width: 20%;
         height: 20%;
         margin-right: 5%; 
+    }
+    audio{
+        width: 8em;
     }
     .post{
         display: flex;
